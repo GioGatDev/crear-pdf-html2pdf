@@ -12,5 +12,6 @@ $html2pdf->output('PDF_GENERATE.pdf'); //Asigna un nombre al archivo de salida
 }
  ?>
 	<form action="" method="POST">
+		<input type="text" placeholder="Título" name="titulo" id="">
 		<input type="submit" value="Crear pdf" name="crear">
 	</form>
